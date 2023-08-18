@@ -9,5 +9,6 @@ var myChart = new Chart(ctx, {
       aspectRatio: 0.8, // อัตราส่วนความกว้างต่อความสูงของแผนภูมิ
       // ...
     }
+    
   });
   
