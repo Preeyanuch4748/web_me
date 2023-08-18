@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Users/pookky/Documents/web_me/stlye.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="/Users/pookky/Documents/web_me/Web.js">
+
+    <title>Pookky's Portfolio</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 4;
+            background-color: #e6e4e4;
+        }
+        header {
+            background-color: #ffcc80;
+            color: rgb(79, 42, 0);
+            text-align: center;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.394);
+            border-radius: 25px; /* กำหนดขอบมน */
+
+
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+            color: rgb(79, 42, 0);
+
+            
+        }
+        .project {
+            color: rgb(79, 42, 0);
+            background-color: rgb(255, 246, 229);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.511);
+            border-radius: 50px; /* กำหนดขอบมน */
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Pookky's Portfolio</h1><i class="fas fa-heart" style="color: #d34e42;"></i>
+        <p>Getting To Know Each Other!</p>
+    </header>
+    <div class="container"></div>
+        <center>
+            <video class="zoomable-video" width="1000" height="440" autoplay loop muted>
+                <source src="VDO.MP4" type="video/mp4">
+            </video></center> <br>
+        </div> <center>  
+       <div class="project">
+            <h2>About Me</h2>
+            <p><b>NAME</b> Miss Preeyanuch Homseang  </p>
+            <p><b>NICKNAME</b> Pookky <i class="fas fa-heart" style="color: #ffa5a5;"></i></p>
+            <p><b>BIRTHDAY</b> 11/05/2004   <b> AGE</b>  19</p>
+            <p><b>NATIONALITY</b> THAI</p>
+            <p><b>BLOOD TYPE</b>  O</p>
+            <p><b>HOBBY</b>  Reading</p>
+            <p><b>GPA</b> 3.75 </p>
+            <p><b>GRADUATED</b> I graduated from High School in Mathematics-Science program with the GPA 3.25 </p>
+
+        <div class="container">
+            <h2>Social Media</h2>
+            <div class="social-icons">
+                <a href="mailto:Preeyanuchhomseang@gmail.com"><i class="far fa-envelope zoomable-icon" style="color: #D44638;"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100009497464356" target="_blank"><i class="fab fa-facebook zoomable-icon" style="color: #d04829;"></i></a>
+                <a href="https://www.instagram.com/preeyanuch._/" target="_blank"><i class="fab fa-instagram zoomable-icon" style="color: #e84b17;"></i></a>
+                <a href="https://www.messenger.com/" target="_blank"><i class="fas fa-mobile-alt zoomable-icon" style="color: #e55e24;"></i></a>
+            </a>
+            </div>
+        </div>
+       </div>   
+  </center>   
+ <div> 
+  <canvas id="myChart" width="400" height="150"></canvas>
+  <script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+  type: 'polarArea',
+  data: {
+    labels: ['Communication ability', 'Ability to think', 'Problem solving ability', ' Ability to use life skills', 'Ability to use technology'],
+    datasets: [{
+      label: 'My Ability',
+      data: [13, 17, 11, 6, 14],
+      backgroundColor: [
+        'rgba(176, 163, 189, 0.4)',
+        'rgba(220, 173, 188, 0.6)',
+        'rgba(238, 229, 194, 0.6)',
+        'rgba(230, 188, 149, 0.6)',
+        'rgba(144, 179, 175, 0.6)',
+      ], // สีพื้นหลัง
+      borderColor: [
+        'rgba(176, 163, 189, 1)',
+        'rgba(220, 173, 188, 1)',
+        'rgba(192, 150, 104, 1)',
+        'rgba(230, 188, 149, 1)',
+        'rgba(94, 116, 128, 1)',
+      ], // สีเส้นกรอบ
+      borderWidth: 1 // ความหนาของเส้นกรอบ
+    }]
+  },
+  options: {
+    // ...
+  }
+});
+
+  </script><br>
+  <footer class="portfolio-footer">
+    <div class="footer-content">
+        </div>
+    </div>
+    <center><div class="footer-bottom">
+        <p>&copy; 2023 Your Portfolio. All rights reserved.</p>
+    </div></center>
+</footer>
+<br><br><br>
+ </div> 
+</body>
+</html>
